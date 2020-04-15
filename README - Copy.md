@@ -29,4 +29,21 @@ PHẦN 3: KIẾN THỨC CỐT LÕI
     - vw(viewport width): phần trăm độ rộng hiển thị của trình duyệt
     - vh(viewport height): phần trăm độ dài hiển thị của trình duyệt
     - Mặc định font-size: 100% = 16px
-7. Padding sẽ làm thay đổi kích thước của đối tượng là lớp gần content nhất
+7. Padding, border sẽ làm thay đổi kích thước của element, là lớp gần content nhất
+   Mặc định của border: solid là 2px.
+   Các cách viết tắt:   
+      /* 4 direction */
+      padding: 10px;
+      /* top, bottom and left, right */
+      padding: 10px 10px;
+      /* top and left, right and bottom */
+      padding: 10px 12px 8px;
+      /* top right bottom left */
+      padding: 7px 8px 9px 10px;
+8. Box-sizing: khi muốn sử dụng padding và border mà không muốn thay đổi kích thước của element.
+   - box-sizing: border-box;
+9. Background-clip: giới hạn phần đổ màu nền từ danh giới nào cho element.
+   - background-clip: content-box. Chỉ đổ màu nền phần content.
+   - background-clip: padding-box. Chỉ đổ màu nền phần content + padding.
+   - Mặc định background-clip: border-box. Đổ màu content + padding + border.
+10. 
